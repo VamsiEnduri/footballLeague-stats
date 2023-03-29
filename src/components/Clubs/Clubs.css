@@ -1,0 +1,44 @@
+.clubs{
+    margin-top: 5%;
+    margin-left: 20px;
+    width: 75%;
+}
+.clubs >p{
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.club-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.club-card{
+   background-color: rgb(255, 0,0,0.8);
+   height: 330px;
+   width: 290px;
+   position: relative;
+   padding: 2px;
+   margin-left: 2px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+.club-card > img{
+    width: 100%;
+    height: 170px;
+}
+.club-info{
+    text-align: center;
+  margin-top: -40px;
+}
+.club-info > img{
+    padding: 2px;
+    width: 6vw;
+    border-radius: 50%;
+    height: 5vw;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

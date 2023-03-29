@@ -1,0 +1,47 @@
+.header-container{
+    width: 100%;
+    height: 10vh;
+}
+.team-logos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+    background-color: #f1f1f1;
+}
+.anchor{
+    display: flex;
+    align-items: center;
+}
+.anchor img{
+   height: 2.5vw;
+    padding: 0 10px;
+}
+.header{
+    height: 9vh;
+  background-color: rgb(134, 9, 134);
+  color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    gap:20px; 
+}
+.name > p{
+    font-size: 24px;
+   
+}
+.header > p{
+    font-size: 24px;
+    margin-right: 10%;
+}
+.name img{
+  height: 100px;
+  margin-top: -55px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
